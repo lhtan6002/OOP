@@ -22,7 +22,7 @@ bool isValidInteger (const std::string& str) {
     return std::regex_match(str, pattern);
 }
 
-void enterRange (std::string& str, const std::string wrongForm, const std::string wrongRange, const std::string reminder, int min, int max) {
+void enterRange (std::string& str, const std::string wrongForm, const std::string wrongRange, const std::string reminder, const std::string success, int min, int max) {
         while (true) {
         if (!isValidInteger(str)) {
             printLine(wrongForm);
@@ -37,7 +37,7 @@ void enterRange (std::string& str, const std::string wrongForm, const std::strin
                 enterString(str);
                 printEnter();
             } else {
-                printLine("Hợp Lệ!");
+                printLine(success);
                 break;
             }
         }

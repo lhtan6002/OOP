@@ -10,6 +10,15 @@
 `./output/ex01`
 
 ---
+### Exercise 02 - WrongPassword
+
+> Lệnh biên dịch  
+`g++ FileMain/Ex02/main.cpp FileMain/Ex02/function.cpp libs/utils.cpp -Ilibs -o output/ex02`  
+  
+> Lệnh chạy chương trình  
+`./output/ex02`
+
+---
 
 ### Push project lên GitHub
 Bước 1: thêm tất cả thay đổi vào stage  
