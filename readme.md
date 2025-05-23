@@ -4,7 +4,7 @@
 ### Exercise 01 - DeathLoop
 
 > Lệnh biên dịch  
-`g++ FileMain/Ex01/main.cpp FileMain/Ex01/function.cpp libs/utils.cpp -Ilibs -o output/ex01`  
+`g++ FileMain/Ex01/main.cpp libs/utils.cpp -Ilibs -o output/ex01`  
   
 > Lệnh chạy chương trình  
 `./output/ex01`

@@ -21,3 +21,25 @@ bool isValidInteger (const std::string& str) {
     std::regex pattern(R"(^-?\d+$)");
     return std::regex_match(str, pattern);
 }
+
+void enterRange (std::string& str, const std::string wrongForm, const std::string wrongRange, const std::string reminder, int min, int max) {
+        while (true) {
+        if (!isValidInteger(str)) {
+            printLine(wrongForm);
+            printText(reminder);
+            enterString(str);
+            printEnter();
+        } else {
+            int n = std::stoi(str);
+            if (n < min || n > max) {
+                printLine(wrongRange);
+                printText(reminder);
+                enterString(str);
+                printEnter();
+            } else {
+                printLine("Hợp Lệ!");
+                break;
+            }
+        }
+    }
+}
