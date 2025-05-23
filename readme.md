@@ -8,3 +8,15 @@
   
 > Lệnh chạy chương trình  
 `./output/ex01`
+
+---
+
+### Push project lên GitHub
+Bước 1: thêm tất cả thay đổi vào stage  
+`git add .`   
+
+Bước 2: ghi lại thay đổi  
+`git commit -m "..."`
+
+Bước 3: đẩy lên GitHub  
+`git push`  
