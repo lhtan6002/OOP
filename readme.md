@@ -37,6 +37,15 @@
 `./output/ex04`
 
 ---
+### Exercise 05 - NextDay
+
+> Lệnh biên dịch  
+`g++ FileMain/Ex05/main.cpp FileMain/Ex05/function.cpp libs/utils.cpp -Ilibs -o output/ex05`  
+  
+> Lệnh chạy chương trình  
+`./output/ex05`
+
+---
 
 ### Push project lên GitHub
 Bước 1: thêm tất cả thay đổi vào stage  
