@@ -19,6 +19,24 @@
 `./output/ex02`
 
 ---
+### Exercise 03 - CurrencyDisplay
+
+> Lệnh biên dịch  
+`g++ FileMain/Ex03/main.cpp FileMain/Ex03/function.cpp libs/utils.cpp -Ilibs -o output/ex03`  
+  
+> Lệnh chạy chương trình  
+`./output/ex03`
+
+---
+### Exercise 04 - RandomIntegers
+
+> Lệnh biên dịch  
+`g++ -std=c++23 FileMain/Ex04/main.cpp FileMain/Ex04/function.cpp libs/utils.cpp -Ilibs -o output/ex04`  
+  
+> Lệnh chạy chương trình  
+`./output/ex04`
+
+---
 
 ### Push project lên GitHub
 Bước 1: thêm tất cả thay đổi vào stage  

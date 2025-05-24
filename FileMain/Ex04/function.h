@@ -7,5 +7,6 @@
 int cntOddNumber (std::vector<int>);
 int cntEvenNumber (std::vector<int>);
 bool isPrime(int);
+void printListPrime(std::vector<int>);
 
 #endif

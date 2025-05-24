@@ -23,6 +23,7 @@ int main () {
     int ranNum = generateIntegerRange(std::stoi(min), std::stoi(max));
     printText("DONE. Your random number is: ");
     printLine(std::to_string(ranNum));
+    printEnter();
 
     std::string minList = "";
     printText("Please enter the minimum value for the each number in your list: ");
@@ -54,9 +55,7 @@ int main () {
                 quOddNum, quEvenNum);
 
     printText("The prime numbers from the list: ");
-    for (int k : listIntegerGenerated) {
-        if (isPrime(k)) std::cout << k << " ";
-    }
+    printListPrime(listIntegerGenerated);
     std::cout << "\n\n";
 
     printText("Kết thúc chương trình!");
