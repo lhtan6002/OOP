@@ -7,5 +7,8 @@
 #include <regex>
 #include <format>
 #include <iomanip>
+#include <sstream>
+#include <algorithm>
+#include <cctype>
 
 #endif 
