@@ -9,6 +9,7 @@ void printEnter ();
 std::string enterString (std::string&);
 bool isValidInteger (const std::string&);
 void enterRange (std::string&, const std::string, const std::string, const std::string, const std::string, int, int);
-
+int generateIntegerRange (int, int);
+void printList_int(std::vector<int>&);
 
 #endif

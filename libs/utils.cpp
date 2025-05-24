@@ -43,3 +43,14 @@ void enterRange (std::string& str, const std::string wrongForm, const std::strin
         }
     }
 }
+
+int generateIntegerRange (int min, int max) {
+    return (rand() % (max - min + 1) + min);
+}
+
+void printList_int(std::vector<int>& list) {
+    for (int i : list) {
+        std::cout << i << " ";
+    }
+    printEnter();
+}

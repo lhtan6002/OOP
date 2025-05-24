@@ -1,5 +1,3 @@
-#include "../../libs/include.h"
-#include "../../libs/utils.h"
 #include "function.h"
 
 int main () {

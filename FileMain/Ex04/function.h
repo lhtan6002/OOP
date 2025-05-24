@@ -4,8 +4,8 @@
 #include "../../libs/include.h"
 #include "../../libs/utils.h"
 
-std::string toFixedString(float);
-std::string vndForm (std::string);
-std::string usdForm (std::string);
+int cntOddNumber (std::vector<int>);
+int cntEvenNumber (std::vector<int>);
+bool isPrime(int);
 
 #endif
